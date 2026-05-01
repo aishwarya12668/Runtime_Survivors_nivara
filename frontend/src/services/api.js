@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://runtime-survivors-nivara.onrender.com",
+  baseURL: import.meta.env.VITE_API_URL || "https://runtime-survivors-nivara-2.onrender.com",
 });
 
 // Attach token automatically
